@@ -1,0 +1,26 @@
+# large model weights
+*.pt
+*.pth
+*.bin
+*.safetensors
+artifacts/**/checkpoint.pt
+artifacts/**/tokenizer/
+
+# python venv / caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# ephemeral runtime artefacts
+logs/*.attempt*.log
+logs/*.previous.log
+submission_zip/
+data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

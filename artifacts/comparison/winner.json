@@ -1,0 +1,106 @@
+{
+  "winner_arch": "indictrans2_full",
+  "winner_label": "IndicTrans2 1.1B (full)",
+  "weighted_score": 0.7117,
+  "ranking": [
+    {
+      "model": "IndicTrans2 1.1B (full)",
+      "family": "IndicTrans2",
+      "arch_id": "indictrans2_full",
+      "test BLEU": 22.217,
+      "BERTScore F1": 0.5793,
+      "params (M)": 1023.007,
+      "trainable (M)": 1023.007,
+      "inference (s)": 226.982,
+      "weighted score": 0.7117
+    },
+    {
+      "model": "NLLB-200 600M (full)",
+      "family": "NLLB-200",
+      "arch_id": "nllb_600m_full",
+      "test BLEU": 19.945,
+      "BERTScore F1": 0.5482,
+      "params (M)": 615.074,
+      "trainable (M)": 615.074,
+      "inference (s)": 67.268,
+      "weighted score": 0.6816
+    },
+    {
+      "model": "NLLB-200 600M (LoRA)",
+      "family": "NLLB-200",
+      "arch_id": "nllb_600m_lora",
+      "test BLEU": 19.767,
+      "BERTScore F1": 0.5487,
+      "params (M)": 619.792,
+      "trainable (M)": 4.719,
+      "inference (s)": 112.73,
+      "weighted score": 0.6634
+    },
+    {
+      "model": "IndicTrans2 1.1B (LoRA)",
+      "family": "IndicTrans2",
+      "arch_id": "indictrans2_lora",
+      "test BLEU": 19.214,
+      "BERTScore F1": 0.5425,
+      "params (M)": 1030.085,
+      "trainable (M)": 7.078,
+      "inference (s)": 654.883,
+      "weighted score": 0.6312
+    },
+    {
+      "model": "GRU + Bahdanau + BPE",
+      "family": "from-scratch",
+      "arch_id": "gru_bahdanau",
+      "test BLEU": 5.577,
+      "BERTScore F1": 0.2407,
+      "params (M)": 10.82,
+      "trainable (M)": 10.82,
+      "inference (s)": 16.98,
+      "weighted score": 0.4192
+    },
+    {
+      "model": "Transformer + BPE",
+      "family": "from-scratch",
+      "arch_id": "transformer_bpe",
+      "test BLEU": 7.034,
+      "BERTScore F1": 0.283,
+      "params (M)": 10.446,
+      "trainable (M)": 10.446,
+      "inference (s)": 36.431,
+      "weighted score": 0.3888
+    },
+    {
+      "model": "Transformer + char",
+      "family": "from-scratch",
+      "arch_id": "transformer_char",
+      "test BLEU": 1.362,
+      "BERTScore F1": 0.1031,
+      "params (M)": 3.184,
+      "trainable (M)": 3.184,
+      "inference (s)": 167.533,
+      "weighted score": 0.2431
+    },
+    {
+      "model": "mT5-small (full)",
+      "family": "mT5",
+      "arch_id": "mt5_small_full",
+      "test BLEU": 2.386,
+      "BERTScore F1": 0.1632,
+      "params (M)": 300.177,
+      "trainable (M)": 300.177,
+      "inference (s)": 168.572,
+      "weighted score": 0.1442
+    },
+    {
+      "model": "mT5-small (LoRA)",
+      "family": "mT5",
+      "arch_id": "mt5_small_lora",
+      "test BLEU": 0.221,
+      "BERTScore F1": -0.0623,
+      "params (M)": 301.553,
+      "trainable (M)": 1.376,
+      "inference (s)": 179.586,
+      "weighted score": -0.0125
+    }
+  ]
+}

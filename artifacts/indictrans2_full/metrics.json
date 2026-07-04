@@ -1,0 +1,17 @@
+{
+  "arch": "indictrans2_full",
+  "model_name": "ai4bharat/indictrans2-indic-en-1B",
+  "mode": "full",
+  "device": "cuda",
+  "parameters": 1023006720,
+  "parameters_million": 1023.007,
+  "trainable_parameters": 1023006720,
+  "trainable_parameters_million": 1023.007,
+  "train_seconds": 1971.943,
+  "inference_seconds": 226.982,
+  "sentences_per_second": 4.406,
+  "best_dev_bleu": 22.293,
+  "test_bleu": 22.217,
+  "test_bertscore_f1": 0.5793,
+  "test_bertscore_f1_unscaled": 0.929
+}
