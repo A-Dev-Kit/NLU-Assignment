@@ -1,0 +1,8 @@
+{
+  "slope": -1.2286813154736311,
+  "intercept": 13.719774971825887,
+  "r_squared": 0.9950686013577277,
+  "top_ranks_used_for_fit": 10000,
+  "types_total": 41803,
+  "tokens_total": 2136069
+}

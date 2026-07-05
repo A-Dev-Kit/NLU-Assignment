@@ -1,0 +1,11 @@
+token,gold,pred,seen_in_train,error_type
+average,VERB,NOUN,True,lexical ambiguity
+$200,NOUN,ADP,True,sparse transition
+depending,ADP,VERB,True,lexical ambiguity
+very,ADV,ADJ,True,lexical ambiguity
+tempting,VERB,NOUN,True,sparse transition
+offer,NOUN,VERB,True,lexical ambiguity
+as,ADP,ADV,True,lexical ambiguity
+Add,VERB,DET,True,sparse transition
+non-partisan,ADJ,NOUN,False,OOV
+cosy,ADJ,NOUN,False,OOV

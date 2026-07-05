@@ -1,0 +1,41 @@
+{
+  "config": {
+    "corpus_name": "gutenberg",
+    "seed": 42,
+    "lowercase": true,
+    "keep_only_alpha": true,
+    "train_ratio": 0.8,
+    "unk_min_count": 1,
+    "ngram_orders": [
+      1,
+      2,
+      3
+    ],
+    "laplace_alpha": 1.0,
+    "num_samples": 5,
+    "max_sample_length": 40,
+    "log_file": "part2_lm.log"
+  },
+  "sentences": {
+    "total": 98326,
+    "train": 78660,
+    "test": 19666
+  },
+  "tokens": {
+    "train": 1709588,
+    "test": 426481
+  },
+  "vocabulary_size": 24029,
+  "perplexity": {
+    "unigram": 672.6047596013026,
+    "bigram (add-1)": 1319.7795087813777,
+    "trigram (add-1)": 7421.774870133718
+  },
+  "samples": [
+    "whew",
+    "leonora tell me innocent loue me",
+    "but a roar to queer very kind",
+    "and courage for such an accompaniment",
+    "of the crofts to the prophetess the negligent falling back"
+  ]
+}

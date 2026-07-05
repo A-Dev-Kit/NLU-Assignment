@@ -1,0 +1,79 @@
+{
+  "errors": [
+    {
+      "token": "average",
+      "gold": "VERB",
+      "pred": "NOUN",
+      "seen_in_train": true,
+      "error_type": "lexical ambiguity"
+    },
+    {
+      "token": "$200",
+      "gold": "NOUN",
+      "pred": "ADP",
+      "seen_in_train": true,
+      "error_type": "sparse transition"
+    },
+    {
+      "token": "depending",
+      "gold": "ADP",
+      "pred": "VERB",
+      "seen_in_train": true,
+      "error_type": "lexical ambiguity"
+    },
+    {
+      "token": "very",
+      "gold": "ADV",
+      "pred": "ADJ",
+      "seen_in_train": true,
+      "error_type": "lexical ambiguity"
+    },
+    {
+      "token": "tempting",
+      "gold": "VERB",
+      "pred": "NOUN",
+      "seen_in_train": true,
+      "error_type": "sparse transition"
+    },
+    {
+      "token": "offer",
+      "gold": "NOUN",
+      "pred": "VERB",
+      "seen_in_train": true,
+      "error_type": "lexical ambiguity"
+    },
+    {
+      "token": "as",
+      "gold": "ADP",
+      "pred": "ADV",
+      "seen_in_train": true,
+      "error_type": "lexical ambiguity"
+    },
+    {
+      "token": "Add",
+      "gold": "VERB",
+      "pred": "DET",
+      "seen_in_train": true,
+      "error_type": "sparse transition"
+    },
+    {
+      "token": "non-partisan",
+      "gold": "ADJ",
+      "pred": "NOUN",
+      "seen_in_train": false,
+      "error_type": "OOV"
+    },
+    {
+      "token": "cosy",
+      "gold": "ADJ",
+      "pred": "NOUN",
+      "seen_in_train": false,
+      "error_type": "OOV"
+    }
+  ],
+  "type_counts": {
+    "lexical ambiguity": 5,
+    "sparse transition": 3,
+    "OOV": 2
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tokens": 232177,
+  "correct": 218294,
+  "accuracy": 0.9402051021419003,
+  "seen_tokens": 226311,
+  "seen_correct": 214594,
+  "seen_accuracy": 0.9482261136224046,
+  "unseen_tokens": 5866,
+  "unseen_correct": 3700,
+  "unseen_accuracy": 0.6307534947153085
+}
